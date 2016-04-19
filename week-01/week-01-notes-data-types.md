@@ -16,6 +16,7 @@ print(x)
 
 ## R Data Types: Objects and Attributes
 R has five basic or "atomic" classes of objects:
+
 * Character
 * Numeric (real numbers)
 * Integer
@@ -105,11 +106,12 @@ x <- factor(c("yes", "yes", "no"),
 ```
 
 ## R Data Types: Data Frames
-Data frames are used to store tabular data
-* Each element has the same length
-* Each column can be a different type
-* Data frames have a special attribute called `row.names`
-* Data frames are often created by calling `read.table()` or `read.csv()`, or by converting by calling `data.matrix()`
+Data frames are used to store tabular data:
+
+ * Each element has the same length
+ * Each column can be a different type
+ * Data frames have a special attribute called `row.names`
+ * Data frames are often created by calling `read.table()` or `read.csv()`, or by converting by calling `data.matrix()`
 
 Example:
 ```R
