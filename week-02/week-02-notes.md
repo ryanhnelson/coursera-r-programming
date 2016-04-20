@@ -23,4 +23,7 @@ if(x > 3) {
   # do something else
   y <- 0
 }
+
+ # This sets Y based on a value of X, and could
+ # be useful for counting series
 ```
