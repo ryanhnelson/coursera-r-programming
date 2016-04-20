@@ -24,6 +24,5 @@ if(x > 3) {
   y <- 0
 }
 
- # This sets Y based on a value of X, and could
- # be useful for counting series
+ # Multiple else statements can be added
 ```
