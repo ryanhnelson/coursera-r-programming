@@ -25,4 +25,5 @@ if(x > 3) {
 }
 
  # Multiple else statements can be added
+ # for various conditions
 ```
