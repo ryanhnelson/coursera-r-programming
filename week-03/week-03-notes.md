@@ -10,4 +10,15 @@ R has various loop functions:
 * `tapply`: Apply a function over subsets of a vector
 * `mapply`: Multivariate version of lapply
 
-### lapply Example
+### lapply
+Takes three arguments: (1) a list x; (2) a function; 
+(3) other arguments via its ... argument. Actual
+looping is performed interally in C.
+
+Example:
+```R
+x <- list(a = 1:5, b = rnorm(10))
+lapply(x, mean)
+  $a 3
+  $b # Mean of randoms from rnorm
+```
