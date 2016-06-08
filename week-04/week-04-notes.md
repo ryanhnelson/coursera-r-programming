@@ -39,6 +39,7 @@ x <- rbinom(100,1, 0.5)
 ```
 
 ## Simulation - Random Sampling
+Here are some examples of random sampling usage
 ```R
 set.seed(1)
 sample(1:10, 4) # Four random integers, no replacement
@@ -47,3 +48,30 @@ sample(1:10, replace = TRUE) # 10 w/replacement
 ```
 
 ## R Profiler
+R profiler is a tool to check where code is taking a lot of time, and also give hints on how to potentially optimize what's happening:
+* How much time is spent in different parts of a program
+* Useful for optimizing
+* Helps avoid time sinks when running, for example, 1000 iterations of code
+* Better than guessing
+
+General rule: YOU SHOULDN'T WORRY ABOUT OPTIMIZING YOUR CODE.
+More specifically, don't worry about it at first.
+> We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. -- Donald Knuth
+
+Get code to run first, and worry about speeding up, analyzing, and optimizing your code after you've got it working.
+
+Example:
+```R
+system.time() # The amount of time taken to run an expression
+ # (can be long and wrapped in {})
+```
+That's fucking cool. At least for smaller, simple programs where you can select a chunk for checking.
+
+## R Profiler, Part 2
+```Rprof()``` is the function that starts the profiler in R.
+```summaryRprof()``` is useful for summarizing the info from Rprof.
+
+R profiler default sampling time is 0.2 seconds.
+Way cool stuff as well. Rad.
+
+Nota Bene: C and Fortran code is not profiled, if it's been inserted into the code stack. BFD.
