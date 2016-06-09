@@ -56,7 +56,8 @@ R profiler is a tool to check where code is taking a lot of time, and also give 
 
 General rule: YOU SHOULDN'T WORRY ABOUT OPTIMIZING YOUR CODE.
 More specifically, don't worry about it at first.
-> We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. -- Donald Knuth
+> We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.
+ -- Donald Knuth
 
 Get code to run first, and worry about speeding up, analyzing, and optimizing your code after you've got it working.
 

@@ -11,7 +11,7 @@ Answer: A vector with the numbers 1, 1, 2, 4, 1
 Answer: rnorm
 
 ## 3. When simulating data, why is using the set.seed() function important? Select all that apply.
-Answers:
+Answer:
 * It ensures that the sequence of random numbers starts in a specific place and is therefore reproducible
 
 ## 4. Which function can be used to evaluate the inverse cumulative distribution function for the Poisson distribution?
@@ -41,7 +41,7 @@ Rprof(NULL)
 ```
 Without running the code, what percentage of the run time is spent in the `lm` function, based on the `by.total` method of normalization shown in `summaryRprof()`?
 
-Answer: 100#
+Answer: 100%
 
 ## 9. When using 'system.time()', what is the user time?
 Answer: It is the time spent by the CPU evaluating an expression
